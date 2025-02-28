@@ -22,7 +22,7 @@ Dichiariamo chi ha vinto.
         - stampo un messaggio di blocco dove dico di rinserire un numero tra 1 e 5
     - altrimenti
         - sommo il numero generato al numero chiesto all'utente
-        - se il resto della somma diviso 2 è uguale a 0
+        - se il risultato della funzione "è un numero dispari" è vera
             - se l'utente aveva scelto pari
                 - stampo un messaggio dove l'utente ha vinto
             - altrimenti
@@ -32,4 +32,12 @@ Dichiariamo chi ha vinto.
                 - stampo un messaggio dove il pc ha vinto
             - altrimenti
                 - stampo un messaggio dove l'utente ha vinto
-     
+
+
+### Funzioni
+
+- funzione "è un numero dispari"
+    - se un numero diviso per 2 ha come resto 0
+        - ritorna false
+    - altrimenti
+        - ritorna true
