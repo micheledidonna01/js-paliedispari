@@ -10,11 +10,15 @@ function isWordPalindroma(word1) {
     //dichiaro array vuoto
     let reverseWordArray = [];
 
+    //trasformo la stringa facendola diventare tutta con caratteri minuscoli
+    let wordLower = word.toLowerCase();
+    console.log('Stringa minuscola: ', wordLower);
+
     //trasformo la stringa in un array
-    let arrayWord = word.split("");
+    let arrayWord = wordLower.split("");
     console.log(arrayWord);
 
-    //ciclo fot
+    //ciclo for
     for (let i = arrayWord.length - 1; i >= 0; i--) {
 
         //tolgo l'ultimo elemento dell'array
@@ -43,7 +47,7 @@ function isWordPalindroma(word1) {
     console.log(reverseWord);
 
     //se la parola originale e quella al contrario sono uguali
-    if (word === reverseWord) {
+    if (wordLower === reverseWord) {
 
         //stampo un messaggio dove dico che la parola è palindroma
         alert(`${word} è una parola palindroma`);

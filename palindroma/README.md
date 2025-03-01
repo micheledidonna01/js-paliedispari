@@ -8,6 +8,7 @@ Creare una funzione per capire se la parola inserita è palindroma
 - chiedo all'utente di inserire una parola
 - funzione "è una parola palindroma"
     - dichiaro array vuoto
+    - trasformo la stringa facendola diventare tutta con caratteri minuscoli
     - trasformo la stringa in un array
     - ciclo for
         - tolgo l'ultimo elemento dell'array
